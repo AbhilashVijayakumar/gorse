@@ -28,6 +28,11 @@ The playground mode has been prepared for beginners. Just set up a recommender s
 docker run -p 8088:8088 zhenghaoz/gorse-in-one --playground
 ```
 
+Run locally using go & idea
+```bash
+go run cmd/gorse-in-one/main.go
+```
+
 The playground mode will download data from [GitRec](https://gitrec.gorse.io/) and import it into Gorse. The dashboard is available at `http://localhost:8088`.
 
 <img width=720 src="https://github.com/gorse-io/dashboard/blob/master/assets/dashboard.png?raw=true"/>
